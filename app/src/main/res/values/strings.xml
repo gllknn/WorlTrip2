@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Worldtrip</string>
+    <string name="hi">Привет!</string>
+    <string name="module1">Модуль 1: Азия</string>
+    <string name="module1_description"> Азия — крупнейшая по площади и населению часть света</string>
+    <string name="module2">Модуль 2: Страны Востока </string>
+    <string name="lvl">1</string>
+    <string name="login">Войти</string>
+    <string name="login2">Вход</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="sign_up2">Регистрация</string>
+    <string name="next">Дальше</string>
+
+    <string name="title_l1e1">Карта Южной Кореи</string>
+    <string name="title_l1e2">Талисман Южной Кореи</string>
+    <string name="title_l1e3">Столица — Сеул</string>
+    <string name="title_l1e4">Традиционная одежда</string>
+    <string name="title_l1e5">Кёнбоккун</string>
+    <string name="title_l1e6">Сеульская телебашня</string>
+    <string name="title_l1e7">Святилище Чонмё</string>
+    <string name="title_l1e8">Возвращайся ещё!</string>
+
+</resources>

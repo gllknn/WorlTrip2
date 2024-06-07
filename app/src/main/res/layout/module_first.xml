@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asia_red"
+    tools:context=".controller.MainActivity">
+
+    <ImageView
+        android:id="@+id/line_down"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="221dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/line"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/clouds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clouds" />
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/quest_m"
+            android:layout_width="33dp"
+            android:layout_height="43dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/quest_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/home_m"
+            android:layout_width="69dp"
+            android:layout_height="48dp"
+            android:layout_margin="25dp"
+            android:text="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageButton
+            android:id="@+id/account_m"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/profile_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/module_one_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="120dp"
+        android:text="@string/module1"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/level_icon"
+        android:layout_width="35dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <TextView
+        android:id="@+id/level__number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/lvl"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/descriptionbtn_one"
+        android:layout_width="17dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/pointer"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/module1_description"
+        android:layout_width="414dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="120dp"
+        android:background="#50ffffff"
+        android:text="@string/module1_description"
+        android:paddingLeft="20dp"
+        android:paddingRight="66dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/list_of_modules_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/spisoc"
+        android:backgroundTintMode="src_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/module1_description" />
+
+    <TextView
+        android:id="@+id/description_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="27dp"
+        android:text="Описание"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/descriptionbtn_one"
+        app:layout_constraintTop_toBottomOf="@+id/module_one_name" />
+
+    <ImageView
+        android:id="@+id/line_up"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="118dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/line"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/lvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/incomplete_level"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line_down" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
